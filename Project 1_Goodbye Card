@@ -1,0 +1,69 @@
+#Happy Birthday Card -> Goodbye Card
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/cutepurplewhale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/pinkwhale"
+        android:src="@drawable/cutepinkwhale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/goodbyes"
+        android:text="Goodbyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"/>
+        
+    <TextView
+        android:text="REALLY BLOW!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="45sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@id/goodbyes"/>
+
+    <ImageView
+        android:id="@+id/waves"
+        android:src="@drawable/waves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/whalemissyou"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/whalemissyou"
+        android:text="We whale miss you!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/pinkwhale"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+
+</RelativeLayout>
