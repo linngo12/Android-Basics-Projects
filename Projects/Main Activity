@@ -1,0 +1,96 @@
+package com.example.android.pokemonbattlecounter;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+    //tracks score for Player 1
+    int scorePlayer1 = 100;
+    //Tracks score for Player 2
+    int scorePlayer2 = 100;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    /**
+     * Displays the given score for Player 2.
+     */
+    public void displayForPlayer2(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.player_2_score);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    /**
+     * Subtracts 12 from score for Player 2 .
+     */
+    public void twelveForPlayer1 (View v) {
+        scorePlayer2 = scorePlayer2 - 12 ;
+        displayForPlayer2(scorePlayer2);
+    }
+
+    /**
+     * Subtracts 8 from score for Player 2 .
+     */
+    public void eightForPlayer1 (View v) {
+        scorePlayer2 = scorePlayer2 - 8 ;
+        displayForPlayer2(scorePlayer2);
+    }
+
+    /**
+     * Subtracts 10 from score for Player 2 .
+     */
+    public void tenForPlayer1 (View v) {
+        scorePlayer2 = scorePlayer2 - 10 ;
+        displayForPlayer2(scorePlayer2);
+    }
+
+    /**
+     * Displays the given score for Player 1
+     */
+    public void displayForPlayer1(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.player_1_score);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    /**
+     * Subtracts 12 from score for Player 1.
+     */
+    public void twelveForPlayer2 (View v) {
+        scorePlayer1 = scorePlayer1 - 12 ;
+        displayForPlayer1(scorePlayer1);
+    }
+
+    /**
+     * Subtracts 8 from score for Player 1.
+     */
+    public void eightForPlayer2 (View v) {
+        scorePlayer1 = scorePlayer1 - 8 ;
+        displayForPlayer1(scorePlayer1);
+    }
+
+    /**
+     * Subtracts 10 from score for Player 1.
+     */
+    public void tenForPlayer2 (View v) {
+        scorePlayer1 = scorePlayer1 - 10 ;
+        displayForPlayer1(scorePlayer1);
+    }
+
+    /**
+     * Resets scores for Team A and B.
+     */
+    public void resetScores (View v) {
+        scorePlayer1 = 100;
+        scorePlayer2 = 100;
+        displayForPlayer1(scorePlayer1);
+        displayForPlayer2(scorePlayer2);
+    }
+}
