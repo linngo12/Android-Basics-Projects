@@ -9,3 +9,6 @@ Hello Android App shows a business card for Udacity.
 
 March 16, 2018
 Just Java App is a coffee ordering app that will update price based on quantity of coffees shown on screen. 
+
+March 24, 2018
+Pokemon Battle Counter App instead of a sports app that will allow a battle between Pikachu and Bulbasaur, two of my favorite pokemon from the series.
