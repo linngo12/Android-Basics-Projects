@@ -1,45 +1,11 @@
 <resources>
-    <string name="app_name">Quizzical</string>
-    <string name="welcome_text">Let\'s get quizzical! How much do you know about Cambodia?</string>
-    <string name="insert_name">Name</string>
 
-    //Question 1 Strings
-    <string name="question1">1) Cambodia is located in which region of Asia?</string>
-    <string name="question1_optionA">East Asia</string>
-    <string name="question1_optionB">Northern Asia</string>
-    <string name="question1_optionC">Southeast Asia</string>
-    <string name="question1_optionD">Pacific Islands</string>
-
-    //Question 2 Strings
-    <string name="question2">2) It is a harsh fact about Cambodia that more than two and a half million people in the country live on less than how much per day?</string>
-    <string name="question2_optionA">$1.20 per day</string>
-    <string name="question2_optionB">$10.00 per day</string>
-    <string name="question2_optionC">$5.00 per day</string>
-    <string name="question2_optionD">$4.40 per day</string>
-
-    //Question 3 Strings
-    <string name="question3">3) Which ancient Cambodian landmark sits on the country\'s flag?</string>
-    <string name="question3_optionA">Tonle Sap</string>
-    <string name="question3_optionB">Angkor Wat</string>
-    <string name="question3_optionC">Phnom Penh</string>
-    <string name="question3_optionD">Prasat Bayon</string>
-
-    //Question 4 Strings
-    <string name="question4">4) What Cambodia\'s capital city?</string>
-    <string name="question4_optionA">Siem Reap</string>
-    <string name="question4_optionB">Battambang</string>
-    <string name="question4_optionC">Kampuchea</string>
-    <string name="question4_optionD">Phnom Penh</string>
-
-    //Question 5 Strings
-    <string name="question5">5) What is the population of Cambodia?</string>
-    <string name="question5_optionA">15.76 Million</string>
-    <string name="question5_optionB">10.5 Million</string>
-    <string name="question5_optionC">100 Million</string>
-    <string name="question5_optionD">55.6 Million</string>
-
-
-    <string name="submit">Submit</string>
-    <string name="reset">Retake Quiz</string>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#49599a</item>
+        <item name="colorPrimaryDark">#7986cb</item>
+        <item name="colorAccent">#aab6fe</item>
+    </style>
 
 </resources>
