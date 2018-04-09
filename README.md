@@ -15,3 +15,6 @@ Pokemon Battle Counter App instead of a sports app that will allow a battle betw
 
 April 8, 2018
 Just Java Coffee Ordering App finalized.
+
+April 8, 2018
+Finished Final Project: Quizzical App with 5 questions about Cambodia.
